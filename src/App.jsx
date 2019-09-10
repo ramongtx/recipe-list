@@ -1,13 +1,12 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+import RecipesDetailList from './components/RecipesDetailList';
 import store from './store';
-import RecipeList from './components/RecipeList';
-import './App.css';
 
 function App() {
   return (
     <Provider store={store}>
-      <RecipeList />
+      <RecipesDetailList />
     </Provider>
   );
 }

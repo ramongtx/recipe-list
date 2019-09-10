@@ -3,6 +3,7 @@ import { LOAD_RECIPES_TYPE, SELECT_RECIPE_TYPE } from './actions';
 
 const INITIAL_STATE = {
   recipes: [],
+  selected: null,
 };
 
 function recipes(state = INITIAL_STATE, action) {
